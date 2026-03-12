@@ -1,0 +1,112 @@
+/* Style général */
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+background:#e0e0e0; /* gris clair */
+}
+
+/* Header */
+header{
+background:#000000; /* noir */
+color:white;
+padding:15px;
+text-align:center;
+}
+
+/* Menu navigation */
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#2196f3; /* bleu */
+}
+
+/* Sections */
+section{
+padding:40px;
+text-align:center;
+}
+
+/* Page accueil */
+.accueil{
+padding:100px 20px;
+}
+
+.btn{
+background:#2196f3; /* bleu */
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#d32f2f; /* rouge */
+}
+
+/* Compétences */
+.skill{
+background:white;
+margin:20px auto;
+padding:20px;
+width:60%;
+border-left:6px solid #2196f3; /* bleu */
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Projets */
+.projet{
+background:white;
+margin:20px auto;
+padding:20px;
+width:70%;
+border-left:6px solid #d32f2f; /* rouge */
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Formulaire contact */
+form{
+width:50%;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #999; /* gris */
+border-radius:5px;
+}
+
+button{
+background:#000000; /* noir */
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#d32f2f; /* rouge */
+}
+
+/* Footer */
+footer{
+background:#000000;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
